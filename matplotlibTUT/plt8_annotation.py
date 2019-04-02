@@ -35,6 +35,8 @@ ax.spines['left'].set_position(('data', 0))
 
 x0 = 1
 y0 = 2*x0 + 1
+# 画一条从x0 到 x0，从0到y0 的黑色 -- 宽度为2.5的 线
+# k = black  -- 
 plt.plot([x0, x0,], [0, y0,], 'k--', linewidth=2.5)
 plt.scatter([x0, ], [y0, ], s=50, color='b')
 
